@@ -1,2 +1,2 @@
-# Test-t-cnico-Java
+# Test-técnico-Java
 Test ofrecido por PWC
