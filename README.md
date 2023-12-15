@@ -33,4 +33,4 @@ Bonus:
 
 El siguiente diagrama muestra las clases que almacenan objetos y sus relaciones.
 
-![Diagrama de clases](Diagrama%20de%20clasesSQL-DataBase.drawio)
+![Diagrama de clases](Diagrama1.png)
