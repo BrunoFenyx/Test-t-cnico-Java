@@ -1,8 +1,8 @@
 # Test Técnico Java - Sistema de Gestión de Facultad
 
-Este repositorio contiene la solución a un test técnico ofrecido por PwC para el desarrollo de una aplicación de gestión de información para una facultad. La aplicación debe manejar datos sobre estudiantes, profesores y personal de servicio. Antes de iniciar el proyecto, asegúrate de realizar los siguientes pasos:
+Este repositorio contiene la solución a un test técnico ofrecido por PwC para el desarrollo de una aplicación de gestión de información para una facultad. La aplicación debe manejar datos sobre estudiantes, profesores y personal de servicio:
 
-## Especificaciones de la Base de Datos
+## Especificaciones de la Base de Datos:
 
    - Nombre: "test_tecnico"
    - Usuario: "root"
@@ -15,27 +15,28 @@ Este repositorio contiene la solución a un test técnico ofrecido por PwC para 
 
 A continuación, se detalla la información que la aplicación debe gestionar para cada tipo de persona:
 
-- **Persona:**
-  - Nombre y apellidos.
+- **Persona (empleados o estudiantes):**
+  - Nombre/s
+  - Apellido/s.
   - Número de identificación.
   - Estado civil.
 
-- **Empleado (hereda de Persona):**
+- **Empleados (profesores o personal de servicio):**
   - Año de incorporación a la facultad.
   - Número de despacho asignado.
 
-- **Estudiante (hereda de Persona):**
+- **Estudiante:**
   - Curso en el que está matriculado.
 
-- **Profesor (hereda de Empleado):**
+- **Profesor:**
   - Departamento al que pertenece (p. ej., lenguajes, matemáticas, arquitectura).
 
-- **Personal de Servicio (hereda de Empleado):**
+- **Personal de Servicio:**
   - Sección a la que están asignados (p. ej., biblioteca, decanato, secretaría).
 
 ## Diagrama de Clases
 
-El siguiente diagrama de clases representa la estructura de las clases y sus relaciones:
+El siguiente diagrama de clases representa la estructura de las clases principales y sus relaciones:
 
 ![Diagrama de clases](Diagrama1.png)
 
@@ -48,17 +49,16 @@ Adicionalmente, se presenta un diagrama de base de datos que ilustra las relacio
 
 ![Diagrama de base de datos](Diagrama2.png)
 
-- **Student** mantiene una relación 1 a 1 con **Person**.
-- **Staff** mantiene una relación 1 a 1 con **Person**.
-- **Teacher** mantiene una relación 1 a 1 con **Staff**.
-- **PersonalStaff** mantiene una relación 1 a 1 con **Staff**.
+- **Student** mantiene una relación uno a uno con **Person**.
+- **Staff** mantiene una relación uno a uno con **Person**.
+- **Teacher** mantiene una relación uno a uno con **Staff**.
+- **PersonalStaff** mantiene una relación uno a uno con **Staff**.
 
-Además, se establecen relaciones adicionales:
 - **Student** mantiene una relación muchos a muchos con **Courses** a través de una tabla intermedia.
-- **Teacher** mantiene una relación muchos a 1 con **Department**.
-- **PersonalStaff** mantiene una relación muchos a 1 con **Section**.
+- **Teacher** mantiene una relación muchos a uno con **Department**.
+- **PersonalStaff** mantiene una relación muchos a uno con **Section**.
 
-## Funcionalidades y Bonus
+## Funcionalidades y Bonus:
 
 La implementación de las clases incluye los constructores y los siguientes métodos:
 
