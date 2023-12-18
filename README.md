@@ -70,4 +70,4 @@ La implementación de las clases incluye los constructores y los siguientes mét
 - Obtención de todos los profesores para algún departamento particular.
 - Obtención de todos los estudiantes de un curso.
 
-Adicionalmente, se han desarrollado tests que prueban la funcionalidad implementada.
+Adicionalmente, se han desarrollado tests que prueban la funcionalidad implementada mediante una interfaz gráfica para que resulte cómodo al utilizarse.
