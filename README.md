@@ -73,5 +73,6 @@ La implementación de las clases incluye los constructores y los siguientes mét
 
 Adicionalmente, se han desarrollado tests que prueban la funcionalidad implementada mediante una interfaz gráfica para que resulte cómodo su uso.
 
-**Detalles:**
+## Detalles:
+
 -Los primeros recursos que se deben crear, son las secciones, los departamentos y los cursos, si no no se podrán crear profesores, personal de servicios ni estudiantes.
