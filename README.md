@@ -75,4 +75,4 @@ Adicionalmente, se han desarrollado tests que prueban la funcionalidad implement
 
 ## Detalles:
 
--Los primeros recursos que se deben crear, son las secciones, los departamentos y los cursos, si no no se podrán crear profesores, personal de servicios ni estudiantes.
+-Los primeros recursos que se deben crear, son las secciones, los departamentos y los cursos, si no, no se podrán crear profesores, personal de servicios ni estudiantes.
