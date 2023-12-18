@@ -4,11 +4,12 @@ Este repositorio contiene la solución a un test técnico ofrecido por PwC para 
 
 ## Configuración de la Base de Datos
 
-1. Crea una base de datos llamada "test_tecnico".
-2. Utiliza el usuario "root" sin contraseña para acceder a la base de datos.
-3. Configura la conexión de la base de datos con la siguiente información:
+   - Nombre: "test_tecnico".
+   - Usuario: "root"
+   - Contraseña:1234.
    - IP: localhost
    - Puerto: 3306
+   - Driver: "mysql-connector-java-8.0.17.jar" 
 
 ## Detalles del Proyecto
 
