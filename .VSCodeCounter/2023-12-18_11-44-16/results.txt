@@ -1,0 +1,244 @@
+Date : 2023-12-18 11:44:16
+Directory : d:\Trabajos\PWC\Test-tecnico-Java
+Total : 182 files,  8870 codes, 664 comments, 1457 blanks, all 10991 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Java     |        177 |      8,679 |        650 |      1,423 |     10,752 |
+| XML      |          3 |        121 |          2 |          4 |        127 |
+| Markdown |          1 |         50 |          0 |         24 |         74 |
+| SQL      |          1 |         20 |         12 |          6 |         38 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                                           | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                                              |        182 |      8,870 |        664 |      1,457 |     10,991 |
+| . (Files)                                                                                                                                      |          2 |         70 |         12 |         30 |        112 |
+| TestTecnico                                                                                                                                    |        180 |      8,800 |        652 |      1,427 |     10,879 |
+| TestTecnico (Files)                                                                                                                            |          1 |         73 |          2 |          2 |         77 |
+| TestTecnico\src                                                                                                                                |         43 |      5,425 |        557 |      1,381 |      7,363 |
+| TestTecnico\src\main                                                                                                                           |         43 |      5,425 |        557 |      1,381 |      7,363 |
+| TestTecnico\src\main\java                                                                                                                      |         42 |      5,401 |        557 |      1,380 |      7,338 |
+| TestTecnico\src\main\java\com                                                                                                                  |         42 |      5,401 |        557 |      1,380 |      7,338 |
+| TestTecnico\src\main\java\com\mycompany                                                                                                        |         42 |      5,401 |        557 |      1,380 |      7,338 |
+| TestTecnico\src\main\java\com\mycompany\testtecnico                                                                                            |         42 |      5,401 |        557 |      1,380 |      7,338 |
+| TestTecnico\src\main\java\com\mycompany\testtecnico (Files)                                                                                    |          1 |         12 |         17 |         14 |         43 |
+| TestTecnico\src\main\java\com\mycompany\testtecnico\igu                                                                                        |         15 |      3,340 |        293 |        618 |      4,251 |
+| TestTecnico\src\main\java\com\mycompany\testtecnico\logic                                                                                      |         11 |        742 |         94 |        278 |      1,114 |
+| TestTecnico\src\main\java\com\mycompany\testtecnico\persistence                                                                                |         15 |      1,307 |        153 |        470 |      1,930 |
+| TestTecnico\src\main\java\com\mycompany\testtecnico\persistence (Files)                                                                        |         12 |      1,271 |        153 |        463 |      1,887 |
+| TestTecnico\src\main\java\com\mycompany\testtecnico\persistence\exceptions                                                                     |          3 |         36 |          0 |          7 |         43 |
+| TestTecnico\src\main\resources                                                                                                                 |          1 |         24 |          0 |          1 |         25 |
+| TestTecnico\src\main\resources\META-INF                                                                                                        |          1 |         24 |          0 |          1 |         25 |
+| TestTecnico\target                                                                                                                             |        136 |      3,302 |         93 |         44 |      3,439 |
+| TestTecnico\target\classes                                                                                                                     |        126 |      3,189 |         93 |          4 |      3,286 |
+| TestTecnico\target\classes\META-INF                                                                                                            |          1 |         24 |          0 |          1 |         25 |
+| TestTecnico\target\classes\com                                                                                                                 |        125 |      3,165 |         93 |          3 |      3,261 |
+| TestTecnico\target\classes\com\mycompany                                                                                                       |        125 |      3,165 |         93 |          3 |      3,261 |
+| TestTecnico\target\classes\com\mycompany\testtecnico                                                                                           |        125 |      3,165 |         93 |          3 |      3,261 |
+| TestTecnico\target\classes\com\mycompany\testtecnico (Files)                                                                                   |          1 |         12 |          0 |          0 |         12 |
+| TestTecnico\target\classes\com\mycompany\testtecnico\igu                                                                                       |         88 |      2,053 |         68 |          2 |      2,123 |
+| TestTecnico\target\classes\com\mycompany\testtecnico\logic                                                                                     |         21 |        416 |          0 |          1 |        417 |
+| TestTecnico\target\classes\com\mycompany\testtecnico\persistence                                                                               |         15 |        684 |         25 |          0 |        709 |
+| TestTecnico\target\classes\com\mycompany\testtecnico\persistence (Files)                                                                       |         12 |        658 |         25 |          0 |        683 |
+| TestTecnico\target\classes\com\mycompany\testtecnico\persistence\exceptions                                                                    |          3 |         26 |          0 |          0 |         26 |
+| TestTecnico\target\generated-sources                                                                                                           |         10 |        113 |          0 |         40 |        153 |
+| TestTecnico\target\generated-sources\annotations                                                                                               |         10 |        113 |          0 |         40 |        153 |
+| TestTecnico\target\generated-sources\annotations\com                                                                                           |         10 |        113 |          0 |         40 |        153 |
+| TestTecnico\target\generated-sources\annotations\com\mycompany                                                                                 |         10 |        113 |          0 |         40 |        153 |
+| TestTecnico\target\generated-sources\annotations\com\mycompany\testtecnico                                                                     |         10 |        113 |          0 |         40 |        153 |
+| TestTecnico\target\generated-sources\annotations\com\mycompany\testtecnico\logic                                                               |         10 |        113 |          0 |         40 |        153 |
++------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                                                                       | language | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| d:\Trabajos\PWC\Test-tecnico-Java\README.md                                                                                                    | Markdown |         50 |          0 |         24 |         74 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\pom.xml                                                                                          | XML      |         73 |          2 |          2 |         77 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\src\main\java\com\mycompany\testtecnico\TestTecnico.java                                         | Java     |         12 |         17 |         14 |         43 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\src\main\java\com\mycompany\testtecnico\igu\CourseEdit.java                                      | Java     |        151 |         15 |         29 |        195 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\src\main\java\com\mycompany\testtecnico\igu\CoursePanel.java                                     | Java     |        250 |         20 |         41 |        311 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\src\main\java\com\mycompany\testtecnico\igu\DepartmentEdit.java                                  | Java     |        131 |         20 |         32 |        183 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\src\main\java\com\mycompany\testtecnico\igu\DepartmentPanel.java                                 | Java     |        221 |         23 |         41 |        285 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\src\main\java\com\mycompany\testtecnico\igu\IguCommodities.java                                  | Java     |        105 |         11 |         35 |        151 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\src\main\java\com\mycompany\testtecnico\igu\SectionEdit.java                                     | Java     |        136 |         15 |         35 |        186 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\src\main\java\com\mycompany\testtecnico\igu\SectionPanel.java                                    | Java     |        231 |         15 |         44 |        290 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\src\main\java\com\mycompany\testtecnico\igu\StaffPanel.java                                      | Java     |        116 |         22 |         21 |        159 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\src\main\java\com\mycompany\testtecnico\igu\StartPanel.java                                      | Java     |        167 |         23 |         29 |        219 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\src\main\java\com\mycompany\testtecnico\igu\StudentEdit.java                                     | Java     |        324 |         20 |         51 |        395 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\src\main\java\com\mycompany\testtecnico\igu\StudentPanel.java                                    | Java     |        295 |         20 |         48 |        363 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\src\main\java\com\mycompany\testtecnico\igu\TeacherEdit.java                                     | Java     |        283 |         20 |         51 |        354 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\src\main\java\com\mycompany\testtecnico\igu\TeacherPanel.java                                    | Java     |        320 |         24 |         53 |        397 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\src\main\java\com\mycompany\testtecnico\igu\WatchmanEdit.java                                    | Java     |        283 |         19 |         55 |        357 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\src\main\java\com\mycompany\testtecnico\igu\WatchmanPanel.java                                   | Java     |        327 |         26 |         53 |        406 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\src\main\java\com\mycompany\testtecnico\logic\CivilStatus.java                                   | Java     |         44 |          8 |         15 |         67 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\src\main\java\com\mycompany\testtecnico\logic\Controller.java                                    | Java     |        266 |         13 |        126 |        405 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\src\main\java\com\mycompany\testtecnico\logic\Course.java                                        | Java     |         45 |          8 |         18 |         71 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\src\main\java\com\mycompany\testtecnico\logic\CourseAndStudent.java                              | Java     |         53 |          8 |         18 |         79 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\src\main\java\com\mycompany\testtecnico\logic\Department.java                                    | Java     |         57 |          8 |         13 |         78 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\src\main\java\com\mycompany\testtecnico\logic\Person.java                                        | Java     |         52 |          8 |         17 |         77 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\src\main\java\com\mycompany\testtecnico\logic\Section.java                                       | Java     |         68 |          8 |         15 |         91 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\src\main\java\com\mycompany\testtecnico\logic\Servicestaff.java                                  | Java     |         53 |          8 |         16 |         77 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\src\main\java\com\mycompany\testtecnico\logic\Staff.java                                         | Java     |         36 |          8 |         11 |         55 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\src\main\java\com\mycompany\testtecnico\logic\Student.java                                       | Java     |         16 |          9 |         14 |         39 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\src\main\java\com\mycompany\testtecnico\logic\Teacher.java                                       | Java     |         52 |          8 |         15 |         75 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\src\main\java\com\mycompany\testtecnico\persistence\CourseController.java                        | Java     |         67 |          8 |         42 |        117 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\src\main\java\com\mycompany\testtecnico\persistence\CoursesAndStudentsController.java            | Java     |         66 |          8 |         31 |        105 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\src\main\java\com\mycompany\testtecnico\persistence\DBConection.java                             | Java     |        145 |         43 |         37 |        225 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\src\main\java\com\mycompany\testtecnico\persistence\DepartmentController.java                    | Java     |         71 |          8 |         35 |        114 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\src\main\java\com\mycompany\testtecnico\persistence\PersistenceController.java                   | Java     |        262 |          8 |         80 |        350 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\src\main\java\com\mycompany\testtecnico\persistence\PersistenceIdObjects.java                    | Java     |        121 |         10 |         39 |        170 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\src\main\java\com\mycompany\testtecnico\persistence\PersistenceService.java                      | Java     |         10 |          8 |          6 |         24 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\src\main\java\com\mycompany\testtecnico\persistence\SectionController.java                       | Java     |         70 |          8 |         38 |        116 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\src\main\java\com\mycompany\testtecnico\persistence\ServicestaffController.java                  | Java     |        187 |         18 |         57 |        262 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\src\main\java\com\mycompany\testtecnico\persistence\StaffController.java                         | Java     |          6 |          8 |          6 |         20 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\src\main\java\com\mycompany\testtecnico\persistence\StudentController.java                       | Java     |         77 |          8 |         36 |        121 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\src\main\java\com\mycompany\testtecnico\persistence\TeacherController.java                       | Java     |        189 |         18 |         56 |        263 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\src\main\java\com\mycompany\testtecnico\persistence\exceptions\IllegalOrphanException.java       | Java     |         18 |          0 |          3 |         21 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\src\main\java\com\mycompany\testtecnico\persistence\exceptions\NonexistentEntityException.java   | Java     |          9 |          0 |          2 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\src\main\java\com\mycompany\testtecnico\persistence\exceptions\PreexistingEntityException.java   | Java     |          9 |          0 |          2 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\src\main\resources\META-INF\persistence.xml                                                      | XML      |         24 |          0 |          1 |         25 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\META-INF\persistence.xml                                                          | XML      |         24 |          0 |          1 |         25 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\TestTecnico.class                                       | Java     |         12 |          0 |          0 |         12 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\CourseEdit$1.class                                  | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\CourseEdit$2.class                                  | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\CourseEdit$3.class                                  | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\CourseEdit$4.class                                  | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\CourseEdit.class                                    | Java     |         72 |          0 |          0 |         72 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\CoursePanel$1.class                                 | Java     |          8 |          0 |          0 |          8 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\CoursePanel$2.class                                 | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\CoursePanel$3.class                                 | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\CoursePanel$4.class                                 | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\CoursePanel$5.class                                 | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\CoursePanel.class                                   | Java     |         97 |          0 |          0 |         97 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\DepartmentEdit$1.class                              | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\DepartmentEdit$2.class                              | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\DepartmentEdit$3.class                              | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\DepartmentEdit$4.class                              | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\DepartmentEdit.class                                | Java     |         57 |          0 |          0 |         57 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\DepartmentPanel$1.class                             | Java     |          8 |          0 |          0 |          8 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\DepartmentPanel$2.class                             | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\DepartmentPanel$3.class                             | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\DepartmentPanel$4.class                             | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\DepartmentPanel$5.class                             | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\DepartmentPanel.class                               | Java     |         86 |          0 |          0 |         86 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\IguCommodities.class                                | Java     |         57 |          0 |          2 |         59 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\SectionEdit$1.class                                 | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\SectionEdit$2.class                                 | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\SectionEdit$3.class                                 | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\SectionEdit$4.class                                 | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\SectionEdit$5.class                                 | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\SectionEdit.class                                   | Java     |         61 |          0 |          0 |         61 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\SectionPanel$1.class                                | Java     |          8 |          0 |          0 |          8 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\SectionPanel$2.class                                | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\SectionPanel$3.class                                | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\SectionPanel$4.class                                | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\SectionPanel$5.class                                | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\SectionPanel.class                                  | Java     |         96 |          0 |          0 |         96 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\StaffPanel$1.class                                  | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\StaffPanel$2.class                                  | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\StaffPanel$3.class                                  | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\StaffPanel.class                                    | Java     |         57 |          0 |          0 |         57 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\StartPanel$1.class                                  | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\StartPanel$2.class                                  | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\StartPanel$3.class                                  | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\StartPanel$4.class                                  | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\StartPanel$5.class                                  | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\StartPanel$6.class                                  | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\StartPanel.class                                    | Java     |         69 |          0 |          0 |         69 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\StudentEdit$1.class                                 | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\StudentEdit$2.class                                 | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\StudentEdit$3.class                                 | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\StudentEdit$4.class                                 | Java     |          8 |          0 |          0 |          8 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\StudentEdit$5.class                                 | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\StudentEdit$6.class                                 | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\StudentEdit$7.class                                 | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\StudentEdit.class                                   | Java     |        102 |          6 |          0 |        108 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\StudentPanel$1.class                                | Java     |          8 |          0 |          0 |          8 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\StudentPanel$2.class                                | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\StudentPanel$3.class                                | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\StudentPanel$4.class                                | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\StudentPanel$5.class                                | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\StudentPanel$6.class                                | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\StudentPanel.class                                  | Java     |        110 |         10 |          0 |        120 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\TeacherEdit$1.class                                 | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\TeacherEdit$2.class                                 | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\TeacherEdit$3.class                                 | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\TeacherEdit$4.class                                 | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\TeacherEdit.class                                   | Java     |         95 |          0 |          0 |         95 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\TeacherPanel$1.class                                | Java     |          8 |          0 |          0 |          8 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\TeacherPanel$2.class                                | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\TeacherPanel$3.class                                | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\TeacherPanel$4.class                                | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\TeacherPanel$5.class                                | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\TeacherPanel$6.class                                | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\TeacherPanel$7.class                                | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\TeacherPanel.class                                  | Java     |        110 |         39 |          0 |        149 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\WatchmanEdit$1.class                                | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\WatchmanEdit$2.class                                | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\WatchmanEdit$3.class                                | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\WatchmanEdit$4.class                                | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\WatchmanEdit.class                                  | Java     |         92 |          0 |          0 |         92 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\WatchmanPanel$1.class                               | Java     |          8 |          0 |          0 |          8 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\WatchmanPanel$2.class                               | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\WatchmanPanel$3.class                               | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\WatchmanPanel$4.class                               | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\WatchmanPanel$5.class                               | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\WatchmanPanel$6.class                               | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\WatchmanPanel$7.class                               | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\WatchmanPanel$8.class                               | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\igu\WatchmanPanel.class                                 | Java     |        110 |         13 |          0 |        123 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\logic\CivilStatus.class                                 | Java     |         13 |          0 |          0 |         13 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\logic\CivilStatus_.class                                | Java     |          6 |          0 |          0 |          6 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\logic\Controller.class                                  | Java     |        178 |          0 |          1 |        179 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\logic\Course.class                                      | Java     |         13 |          0 |          0 |         13 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\logic\CourseAndStudent.class                            | Java     |         18 |          0 |          0 |         18 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\logic\CourseAndStudent_.class                           | Java     |          6 |          0 |          0 |          6 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\logic\Course_.class                                     | Java     |          5 |          0 |          0 |          5 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\logic\Department.class                                  | Java     |         22 |          0 |          0 |         22 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\logic\Department_.class                                 | Java     |          5 |          0 |          0 |          5 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\logic\Person.class                                      | Java     |         13 |          0 |          0 |         13 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\logic\Person_.class                                     | Java     |          6 |          0 |          0 |          6 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\logic\Section.class                                     | Java     |         23 |          0 |          0 |         23 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\logic\Section_.class                                    | Java     |          7 |          0 |          0 |          7 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\logic\Servicestaff.class                                | Java     |         22 |          0 |          0 |         22 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\logic\Servicestaff_.class                               | Java     |          8 |          0 |          0 |          8 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\logic\Staff.class                                       | Java     |         12 |          0 |          0 |         12 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\logic\Staff_.class                                      | Java     |          6 |          0 |          0 |          6 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\logic\Student.class                                     | Java     |         11 |          0 |          0 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\logic\Student_.class                                    | Java     |          6 |          0 |          0 |          6 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\logic\Teacher.class                                     | Java     |         26 |          0 |          0 |         26 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\logic\Teacher_.class                                    | Java     |         10 |          0 |          0 |         10 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\persistence\CourseController.class                      | Java     |         41 |          0 |          0 |         41 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\persistence\CoursesAndStudentsController.class          | Java     |         43 |          0 |          0 |         43 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\persistence\DBConection.class                           | Java     |         28 |          0 |          0 |         28 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\persistence\DepartmentController.class                  | Java     |         44 |          0 |          0 |         44 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\persistence\PersistenceController.class                 | Java     |        132 |          0 |          0 |        132 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\persistence\PersistenceIdObjects.class                  | Java     |         19 |         24 |          0 |         43 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\persistence\PersistenceService.class                    | Java     |         13 |          1 |          0 |         14 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\persistence\SectionController.class                     | Java     |         44 |          0 |          0 |         44 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\persistence\ServicestaffController.class                | Java     |        124 |          0 |          0 |        124 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\persistence\StaffController.class                       | Java     |          5 |          0 |          0 |          5 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\persistence\StudentController.class                     | Java     |         38 |          0 |          0 |         38 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\persistence\TeacherController.class                     | Java     |        127 |          0 |          0 |        127 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\persistence\exceptions\IllegalOrphanException.class     | Java     |          8 |          0 |          0 |          8 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\persistence\exceptions\NonexistentEntityException.class | Java     |          9 |          0 |          0 |          9 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\classes\com\mycompany\testtecnico\persistence\exceptions\PreexistingEntityException.class | Java     |          9 |          0 |          0 |          9 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\generated-sources\annotations\com\mycompany\testtecnico\logic\CivilStatus_.java           | Java     |         13 |          0 |          4 |         17 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\generated-sources\annotations\com\mycompany\testtecnico\logic\CourseAndStudent_.java      | Java     |         13 |          0 |          4 |         17 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\generated-sources\annotations\com\mycompany\testtecnico\logic\Course_.java                | Java     |         10 |          0 |          4 |         14 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\generated-sources\annotations\com\mycompany\testtecnico\logic\Department_.java            | Java     |         10 |          0 |          4 |         14 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\generated-sources\annotations\com\mycompany\testtecnico\logic\Person_.java                | Java     |         12 |          0 |          4 |         16 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\generated-sources\annotations\com\mycompany\testtecnico\logic\Section_.java               | Java     |         13 |          0 |          4 |         17 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\generated-sources\annotations\com\mycompany\testtecnico\logic\Servicestaff_.java          | Java     |         12 |          0 |          4 |         16 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\generated-sources\annotations\com\mycompany\testtecnico\logic\Staff_.java                 | Java     |         11 |          0 |          4 |         15 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\generated-sources\annotations\com\mycompany\testtecnico\logic\Student_.java               | Java     |          7 |          0 |          4 |         11 |
+| d:\Trabajos\PWC\Test-tecnico-Java\TestTecnico\target\generated-sources\annotations\com\mycompany\testtecnico\logic\Teacher_.java               | Java     |         12 |          0 |          4 |         16 |
+| d:\Trabajos\PWC\Test-tecnico-Java\test_tecnico.sql                                                                                             | SQL      |         20 |         12 |          6 |         38 |
+| Total                                                                                                                                          |          |      8,870 |        664 |      1,457 |     10,991 |
++------------------------------------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
