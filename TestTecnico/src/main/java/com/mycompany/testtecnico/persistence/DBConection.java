@@ -17,7 +17,7 @@ import javax.swing.JOptionPane;
 public class DBConection {
 
     private static final String USER = "root";
-    private static final String PASSWORD = "";
+    private static final String PASSWORD = "1234";
     private static final String DATABASE_NAME = "test_tecnico";
     private static final String IP = "localhost";
     private static final String PORT = "3306";
