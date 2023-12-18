@@ -2,7 +2,7 @@
 
 Este repositorio contiene la solución a un test técnico ofrecido por PwC para el desarrollo de una aplicación de gestión de información para una facultad. La aplicación debe manejar datos sobre estudiantes, profesores y personal de servicio. Antes de iniciar el proyecto, asegúrate de realizar los siguientes pasos:
 
-## Configuración de la Base de Datos
+## Especificaciones de la Base de Datos
 
    - Nombre: "test_tecnico"
    - Usuario: "root"
@@ -72,3 +72,6 @@ La implementación de las clases incluye los constructores y los siguientes mét
 - Obtención de todos los estudiantes de un curso.
 
 Adicionalmente, se han desarrollado tests que prueban la funcionalidad implementada mediante una interfaz gráfica para que resulte cómodo su uso.
+
+**Detalles:**
+-Los primeros recursos que se deben crear, son las secciones, los departamentos y los cursos, si no no se podrán crear profesores, personal de servicios ni estudiantes.
