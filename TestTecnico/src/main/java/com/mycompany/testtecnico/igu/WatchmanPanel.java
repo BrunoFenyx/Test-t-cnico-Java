@@ -357,7 +357,7 @@ public class WatchmanPanel extends javax.swing.JFrame {
     }//GEN-LAST:event_btnFilterActionPerformed
 
     private void listMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_listMouseClicked
-        if (evt.getClickCount() == 2) { // Doble clic
+        if (evt.getClickCount() == 2) {
                     // Obtener el elemento seleccionado
                     Object servicestaff = list.getSelectedValue();
                     

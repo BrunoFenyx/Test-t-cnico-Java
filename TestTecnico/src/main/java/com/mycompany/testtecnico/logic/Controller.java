@@ -4,19 +4,13 @@
  */
 package com.mycompany.testtecnico.logic;
 
-import com.mycompany.testtecnico.igu.Provisional.PersistenceIdObjects;
+import com.mycompany.testtecnico.persistence.PersistenceIdObjects;
 import com.mycompany.testtecnico.persistence.PersistenceController;
-import static com.mycompany.testtecnico.persistence.PersistenceController.objectCourses;
-import static com.mycompany.testtecnico.persistence.PersistenceController.objectCoursesAndStudents;
-import static com.mycompany.testtecnico.persistence.PersistenceController.objectDepartments;
-import static com.mycompany.testtecnico.persistence.PersistenceController.objectSections;
-import static com.mycompany.testtecnico.persistence.PersistenceController.objectServiceStaffs;
-import static com.mycompany.testtecnico.persistence.PersistenceController.objectStudents;
-import static com.mycompany.testtecnico.persistence.PersistenceController.objectTeachers;
+import static com.mycompany.testtecnico.persistence.PersistenceController.*;
+import com.mycompany.testtecnico.persistence.PersistenceService;
+
 import java.time.LocalDate;
-import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.List;
 import javax.swing.DefaultListModel;
 
 /**
@@ -26,9 +20,13 @@ import javax.swing.DefaultListModel;
 public class Controller {
 
    PersistenceController persisController = new PersistenceController();
+   PersistenceService persisService = new PersistenceService();
 
     
-    private static PersistenceIdObjects idObject = new PersistenceIdObjects (1,1,1,1,1,1,1);
+    private static PersistenceIdObjects idObject = new PersistenceIdObjects (0,0,0,0,0,0,0,0);
+    
+    
+    
     
     public void saveSection(String name) {
 
@@ -40,7 +38,7 @@ public class Controller {
         persisController.addSectionObject(section);
         System.out.println(persisController.getSectionsList());
 
-        //persistenceController.saveSection(section);
+        persisService.sectionC.create(section);
 
     }
 
@@ -54,6 +52,8 @@ public class Controller {
         
         if (currentObject.equals(object)) {
             System.out.println("La siguiente sección ha sido eliminada: "+currentObject);
+            
+            persisService.sectionC.delete(object);
             iterator.remove();
 
             }
@@ -64,10 +64,11 @@ public class Controller {
     public void editSection(Section object, String name){
         
         for (Section section : objectSections) {
-        System.out.println("Buscando Departamento: " + section);
+        System.out.println("Buscando Sección: " + section);
 
         if (section.equals(object)) {
             section.setName(name);
+            persisService.sectionC.update(section);
             break;
         }
     }
@@ -84,6 +85,8 @@ public class Controller {
 
         persisController.addDepartmentObject(department);
         System.out.println(persisController.getDepartmentsList());
+        
+        persisService.departmentC.create(department);
 
 
 
@@ -96,9 +99,9 @@ public class Controller {
         Department currentObject = iterator.next();
         if (currentObject == object) {
             System.out.println("El siguiente departamento ha sido eliminado: "+iterator);
-            iterator.remove();
             
-
+            persisService.departmentC.delete(object);
+            iterator.remove();
             break;
             }
         }
@@ -111,6 +114,7 @@ public class Controller {
 
         if (department.equals(object)) {
             department.setName(name);
+            persisService.departmentC.update(department);
             break;
         }
     }
@@ -123,6 +127,7 @@ public class Controller {
     public void saveTeacher(String name, String fullname, LocalDate date, String dispatch,
                             Object civilStatus, Object department) {
         String status = civilStatus.toString();
+        
         Teacher teacher = new Teacher(date, dispatch, name, fullname, status);
         teacher.setName(name);
         teacher.setFullname(fullname);
@@ -132,9 +137,12 @@ public class Controller {
         
         teacher.setId(idObject.getIdTeacher());
         idObject.addIdTeacher();
+        idObject.addIdPerson();
 
         persisController.addTeacherObject(teacher);
         System.out.println(persisController.getTeacherList());
+        
+        persisService.teacherC.create(teacher);
 
     }
     
@@ -145,6 +153,7 @@ public class Controller {
         Teacher currentObject = iterator.next();
         if (currentObject == object) {
             System.out.println("El siguiente Profesor ha sido eliminado: "+iterator);
+            persisService.teacherC.delete(object);
             iterator.remove();
             break;
             }
@@ -160,6 +169,8 @@ public class Controller {
             teacher.setCivilStatus(civilStatus);
             teacher.setDepartment(department);
             teacher.setDispatchNumber(dispatch);
+            
+            persisService.teacherC.update(teacher);
             break;
         }
     }
@@ -180,10 +191,16 @@ public class Controller {
         servicestaff.setSection(persisController.findSection(section));
         
         servicestaff.setId(idObject.getIdServicestaff());
+        servicestaff.setId(idObject.getIdServicestaff());
+        servicestaff.setId(idObject.getIdServicestaff());
         idObject.addIdServicestaff();
+        idObject.addIdStaff();
+        idObject.addIdPerson();
 
         persisController.addServicestaffObject(servicestaff);
         System.out.println(persisController.getServicestaffList());
+        
+        persisService.servicestaffC.create(servicestaff);
 
     }
     
@@ -194,6 +211,7 @@ public class Controller {
         Servicestaff currentObject = iterator.next();
         if (currentObject == object) {
             System.out.println("El siguiente Personal de servicio ha sido eliminado: "+iterator);
+            persisService.servicestaffC.delete(object);
             iterator.remove();
             break;
             }
@@ -209,6 +227,8 @@ public class Controller {
             servicestaff.setCivilStatus(civilStatus);
             servicestaff.setSection(section);
             servicestaff.setDispatchNumber(dispatch);
+            
+            persisService.servicestaffC.update(object);
             break;
         }
     }
@@ -224,11 +244,13 @@ public class Controller {
         student.setName(name);
         student.setFullname(fullname);
         
-        student.setId(idObject.getIdStudent());
-        idObject.addIdStudent();
+        student.setId(idObject.getIdPerson());
+        idObject.addIdPerson();
 
         persisController.addStudentObject(student);
         System.out.println(persisController.getServicestaffList());
+        
+        persisService.studentC.create(student);
 
     }
     
@@ -252,14 +274,13 @@ public class Controller {
                 deleteCourseAndStudent(relation);
             }
 
-            // Eliminar el curso de la lista de cursos
+            persisService.studentC.delete(object);
             iterator.remove();
             break;
         }
     }
 }
             
-    
     public void editStudent(Student object, String civilStatus){
         
         for (Student student : objectStudents) {
@@ -267,6 +288,7 @@ public class Controller {
 
         if (student.equals(object)) {
             student.setCivilStatus(civilStatus);
+            persisService.studentC.update(student);
             break;
         }
     }
@@ -279,12 +301,15 @@ public class Controller {
 
         String trueYear = year.toString();
         Course course = new Course();
+        
         course.setName(trueYear+" "+name);
         course.setId(idObject.getIdCourse());
         idObject.addIdCourse();
 
         persisController.addCourseObject(course);
         System.out.println(persisController.getCourseList());
+        
+        persisService.courseC.create(course);
 
 
 
@@ -311,7 +336,7 @@ public class Controller {
                 deleteCourseAndStudent(relation);
             }
 
-            // Eliminar el curso de la lista de cursos
+            persisService.courseC.delete(object);
             iterator.remove();
             break;
         }
@@ -325,6 +350,7 @@ public class Controller {
 
         if (course.equals(object)) {
             course.setName(name);
+            persisService.courseC.update(course);
             break;
         }
     }
@@ -334,26 +360,29 @@ public class Controller {
     
     public void saveCourseAndStudent(String name, Object course) {
         
+        System.out.println("Guardando relación en la capa logic.");
+        
         CourseAndStudent courseAndStudent = new CourseAndStudent();
         courseAndStudent.setStudent(persisController.findStudent(name));
         courseAndStudent.setCourse(persisController.findCourse(course));
+        
+        
         
         Course trueCourse = persisController.findCourse(course);
         
         
         courseAndStudent.setId(idObject.getIdCourseAndStudent());
         idObject.addIdCourseAndStudent();
+        
+        System.out.println(courseAndStudent);
 
         persisController.addCourseAndStudentObject(courseAndStudent);
         System.out.println(persisController.getCourseAndStudentList());
         
-        System.out.println(trueCourse);
+        System.out.println("Guardando relación en la capa persistence.");
+        persisService.coursesAndStudentsC.create(courseAndStudent);
         System.out.println(courseAndStudent);
- 
-        trueCourse.addRelation(courseAndStudent);
-        System.out.println(trueCourse);
-
-
+        
     }
     
     public void deleteCourseAndStudent(CourseAndStudent object){
@@ -363,6 +392,8 @@ public class Controller {
         CourseAndStudent currentObject = iterator.next();
         if (currentObject == object) {
             System.out.println("La siguiente Relación ha sido eliminada: "+currentObject);
+            
+            persisService.coursesAndStudentsC.delete(object);
             iterator.remove();
             break;
             }

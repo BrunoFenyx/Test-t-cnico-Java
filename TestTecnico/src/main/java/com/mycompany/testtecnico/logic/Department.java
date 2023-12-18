@@ -5,6 +5,7 @@
 package com.mycompany.testtecnico.logic;
 
 import java.io.Serializable;
+import java.util.Objects;
 import javax.persistence.Basic;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -55,5 +56,22 @@ public class Department implements Serializable {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 '}';
+    }
+    
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null || getClass() != obj.getClass()) {
+            return false;
+        }
+        Department otherDepartment = (Department) obj;
+        return Objects.equals(id, otherDepartment.id) && Objects.equals(name, otherDepartment.name);
+    }
+    
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, name);
     }
 }

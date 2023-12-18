@@ -30,24 +30,11 @@ public class Course {
     @Basic
     private String name;
     
-   @OneToMany(mappedBy = "course", cascade = CascadeType.ALL)
-    private List<CourseAndStudent> relation = new ArrayList<>();
-
-    public List<CourseAndStudent> getRelation() {
-        return relation;
-    }
-
-    public void setRelation(List<CourseAndStudent> relation) {
-        this.relation = relation;
-    }
     
-    public void addRelation(CourseAndStudent relation) {
-        this.relation.add(relation);
-    }
-    public Course(int id, String name, List<CourseAndStudent> relation) {
+    public Course(int id, String name) {
         this.id = id;
         this.name = name;
-        this.relation = relation;
+
     }
 
     public Course() {
@@ -76,7 +63,7 @@ public class Course {
         return "Course{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", relation=" + relation +
+
                 '}';
     }
     

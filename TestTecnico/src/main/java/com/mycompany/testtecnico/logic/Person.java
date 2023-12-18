@@ -29,8 +29,6 @@ public class Person {
     @Basic
     private String name;
     private String fullname;
-    @ManyToOne
-    @JoinColumn(name = "civil_status_id")
     private String civilStatus;
 
     public Person(String name, String fullname, String civilStatus) {

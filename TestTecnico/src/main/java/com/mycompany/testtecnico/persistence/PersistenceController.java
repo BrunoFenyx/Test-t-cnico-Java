@@ -20,21 +20,25 @@ import javax.swing.DefaultListModel;
 
 /**
  *
- * @author WIN10
+ * @author Bruno Maximiliano Ojeda Bayon
  */
 public class PersistenceController {
     
-    
-    public static List<CivilStatus> objectCivilStatus = new ArrayList<>();
-    public static List<Section> objectSections = new ArrayList<>();
-    public static List<Department> objectDepartments = new ArrayList<>();
-    public static List<Teacher> objectTeachers= new ArrayList<>();
-    public static List<Student> objectStudents = new ArrayList<>();
-    public static List<Servicestaff> objectServiceStaffs = new ArrayList<>();
-    public static List<Course> objectCourses = new ArrayList<>();
-    public static List<CourseAndStudent> objectCoursesAndStudents = new ArrayList<>();
+    public static PersistenceService persisService = new PersistenceService();
     
     
+    public static List<Section> objectSections = persisService.sectionC.read();
+    public static List<Department> objectDepartments = persisService.departmentC.read();
+    public static List<Course> objectCourses = persisService.courseC.read();
+    
+     
+    
+    public static List<Teacher> objectTeachers = persisService.teacherC.read();
+    public static List<Student> objectStudents = persisService.studentC.read();
+    public static List<Servicestaff> objectServiceStaffs = persisService.servicestaffC.read();
+    
+    public static List<CourseAndStudent> objectCoursesAndStudents = persisService.coursesAndStudentsC.read();
+
     
     public ArrayList<String> getSectionsName(){
         ArrayList<String> sectionsName = new ArrayList<>();
@@ -80,6 +84,7 @@ public class PersistenceController {
         }
         return studentsName;
     }
+    
     public ArrayList<String> getCoursesName(){
         ArrayList<String> courseName = new ArrayList<>();
         for (int index = 0; index < objectCourses.size(); index++){
@@ -89,14 +94,7 @@ public class PersistenceController {
         return courseName;
     }
     
-//    public ArrayList<String> getCoursesAndStudentsName(){
-//        ArrayList<String> courseAndStudentName = new ArrayList<>();
-//        for (int index = 0; index < objectCoursesAndStudents.size(); index++){
-//            CourseAndStudent object = objectCoursesAndStudents.get(index);
-//            courseAndStudentName.add(object.getName());
-//        }
-//        return courseAndStudentName;
-//    }
+    
     
     public Department findDepartment(Object departmentName) {
     Department foundDepartment = null;
@@ -210,7 +208,7 @@ public class PersistenceController {
     return foundCourseAndStudent;
 }
     
-        
+    
         
     public DefaultListModel<CourseAndStudent> filterStudentsBy(Object course) {
         
@@ -248,9 +246,12 @@ public class PersistenceController {
         
         DefaultListModel<Servicestaff> filteredList = new DefaultListModel<>();
         for (Servicestaff index : objectServiceStaffs) {
-            System.out.println("Obteniendo servicestaff: "+index.getName() + "Comparando Curso: "+trueSection.getName());
+            System.out.println("Obteniendo servicestaff: "+index.getName() + "\n"+index.getSection() + "Comparando sección: "+trueSection.getName());
             if (index.getSection().equals(trueSection)) {
                 filteredList.addElement(index);
+            }
+            else{
+                System.out.println("no son iguales");
             }
         }
         System.out.println(filteredList);

@@ -13,10 +13,17 @@ import javax.persistence.Entity;
 
 @Entity
 public class Student extends Person {
+    
+
+
+    
 
     public Student(String name, String fullname, String civilStatus) {
         super(name, fullname, civilStatus);
+
     }
+    
+ 
     
     @Override
     public String toString() {

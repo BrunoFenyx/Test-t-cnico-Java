@@ -126,24 +126,24 @@ public class IguCommodities {
         public DefaultListModel<String> studentCoursesList(JList<String> jldate, Object student) {
 
             System.out.println("\n\n\n Creando lista de nombres de cursos relacionados con el estudiante.");
-    // Llamada al método filterCourseAndStudentByStudent para obtener la lista filtrada.
-    PersistenceController persisController = new PersistenceController();
-    DefaultListModel<CourseAndStudent> filteredList = persisController.filterCourseAndStudentByStudent(student);
+            // Llamada al método filterCourseAndStudentByStudent para obtener la lista filtrada.
+            PersistenceController persisController = new PersistenceController();
+            DefaultListModel<CourseAndStudent> filteredList = persisController.filterCourseAndStudentByStudent(student);
 
-    DefaultListModel courseNamesList = (DefaultListModel) jldate.getModel();
+            DefaultListModel courseNamesList = (DefaultListModel) jldate.getModel();
 
-    // Iterar sobre la lista filtrada y agregar los nombres de los cursos a la nueva lista.
-    for (int index = 0; index < filteredList.size(); index++) {
-        CourseAndStudent courseAndStudent = filteredList.getElementAt(index);
-        
-        System.out.println(courseAndStudent);
+            // Iterar sobre la lista filtrada y agregar los nombres de los cursos a la nueva lista.
+            for (int index = 0; index < filteredList.size(); index++) {
+                CourseAndStudent courseAndStudent = filteredList.getElementAt(index);
 
-        courseNamesList.addElement(courseAndStudent.getCourse().getName());
-    }
+                System.out.println(courseAndStudent);
 
-    // Devolver la lista de nombres de cursos.
-    System.out.println("La lista creada es la siguiente: "+courseNamesList);
-    return courseNamesList;
+                courseNamesList.addElement(courseAndStudent.getCourse().getName());
+            }
+
+            // Devolver la lista de nombres de cursos.
+            System.out.println("La lista creada es la siguiente: "+courseNamesList);
+            return courseNamesList;
 }
 
 

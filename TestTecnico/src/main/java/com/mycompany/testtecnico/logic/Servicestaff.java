@@ -19,10 +19,16 @@ public class Servicestaff extends Staff{
     @ManyToOne
     @JoinColumn(name = "section_id")
     private Section section;
+    private int id_staff;
+    private int id_servicestaff;
 
-    public Servicestaff(Section section, LocalDate date, String dispatchNumber, String name, String fullname, String civilStatus) {
+    public Servicestaff(Section section, LocalDate date, String dispatchNumber,
+                        String name, String fullname, String civilStatus,
+                        int id_staff, int id_servicestaff) {
         super(date, dispatchNumber, name, fullname, civilStatus);
         this.section = section;
+        this.id_staff = id_staff;
+        this.id_servicestaff = id_servicestaff;
     }
 
     public Servicestaff(LocalDate date, String dispatchNumber, String name, String fullname, String civilStatus) {
@@ -36,6 +42,24 @@ public class Servicestaff extends Staff{
     public void setSection(Section section) {
         this.section = section;
     }
+
+    public int getId_staff() {
+        return id_staff;
+    }
+
+    public void setId_staff(int id_staff) {
+        this.id_staff = id_staff;
+    }
+
+    public int getId_servicestaff() {
+        return id_servicestaff;
+    }
+
+    public void setId_servicestaff(int id_servicestaff) {
+        this.id_servicestaff = id_servicestaff;
+    }
+    
+    
     
     @Override
     public String toString() {

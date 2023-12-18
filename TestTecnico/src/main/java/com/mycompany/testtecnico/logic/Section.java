@@ -5,6 +5,7 @@
 package com.mycompany.testtecnico.logic;
 
 import java.util.List;
+import java.util.Objects;
 import javax.persistence.Basic;
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
@@ -27,7 +28,7 @@ public class Section {
     @OneToMany(mappedBy = "servicestaff", cascade = CascadeType.ALL)
     private List<Servicestaff> servicestaff;
 
-    public Section(int id, String name, List<Servicestaff> servicestaff) {
+    public Section(int id, String name) {
         this.id = id;
         this.name = name;
         this.servicestaff = servicestaff;
@@ -68,5 +69,22 @@ public class Section {
                 ", name='" + name + '\'' +
                 ", servicestaff=" + servicestaff +
                 '}';
+    }
+    
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null || getClass() != obj.getClass()) {
+            return false;
+        }
+        Section otherSection = (Section) obj;
+        return Objects.equals(id, otherSection.id) && Objects.equals(name, otherSection.name);
+    }
+    
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, name);
     }
 }
