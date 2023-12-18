@@ -6,7 +6,7 @@ Este repositorio contiene la solución a un test técnico ofrecido por PwC para 
 
    - Nombre: "test_tecnico".
    - Usuario: "root"
-   - Contraseña:1234.
+   - Contraseña: 1234.
    - IP: localhost
    - Puerto: 3306
    - Driver: "mysql-connector-java-8.0.17.jar" 
